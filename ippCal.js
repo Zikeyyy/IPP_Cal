@@ -14,9 +14,9 @@ function process(trxValue) {
     var Tot18 = (trxValue * 120) / 100;
 
     var rent3 = parseFloat(Tot3 / 3).toFixed(2);
-    var rent6 = parseFloat(Tot3 / 6).toFixed(2);
-    var rent12 = parseFloat(Tot3 / 12).toFixed(2);
-    var rent18 = parseFloat(Tot3 / 18).toFixed(2);
+    var rent6 = parseFloat(Tot6 / 6).toFixed(2);
+    var rent12 = parseFloat(Tot12 / 12).toFixed(2);
+    var rent18 = parseFloat(Tot18 / 18).toFixed(2);
 
     //console.log(trxValue);
     document.getElementById("hfc3").innerHTML = hfc3;
