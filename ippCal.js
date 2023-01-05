@@ -1,3 +1,10 @@
+let USDollar = new Intl.NumberFormat('en-US', {
+    style: 'currency',
+    currency: 'LKR',
+});
+
+
+
 function process(trxValue) {
     let value = document.getElementById("bar").value;
     //console.log(value);
@@ -29,11 +36,12 @@ function process(trxValue) {
     document.getElementById("Tot12").innerHTML = Tot12;
     document.getElementById("Tot18").innerHTML = Tot18;
 
-    document.getElementById("rent3").innerHTML = "Rs. " + rent3 + "/=";
-    document.getElementById("rent6").innerHTML = "Rs. " + rent6 + "/=";
-    document.getElementById("rent12").innerHTML = "Rs. " + rent12 + "/=";
-    document.getElementById("rent18").innerHTML = "Rs. " + rent18 + "/=";
+    document.getElementById("rent3").innerHTML = USDollar.format(rent3);
+    document.getElementById("rent6").innerHTML = USDollar.format(rent6);
+    document.getElementById("rent12").innerHTML = USDollar.format(rent12);
+    document.getElementById("rent18").innerHTML = USDollar.format(rent18);
 
 }
 
-process();
+
+//process();
