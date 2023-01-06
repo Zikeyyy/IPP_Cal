@@ -1,0 +1,152 @@
+body {
+    margin: 0;
+    padding: 0;
+
+    background-color: #1E1E1E;
+
+}
+
+.main-sections {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+
+}
+
+h1 {
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    font-family: 'Prosto One', cursive;
+    height: 20vh;
+    margin-top: 30px;
+}
+
+.input-area {
+    flex-grow: 1;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.table-area {
+    flex-grow: 1;
+}
+
+.text {
+    font-size: 20px;
+}
+
+#bar {
+    padding: 10px;
+    background-color: antiquewhite;
+    outline: none;
+    border-radius: 5px;
+    transition-duration: 0.4s;
+}
+
+#bar:focus {
+    border: 2px solid rgb(19, 161, 73);
+    background-color: #d5e2d8;
+}
+
+.btn {
+    font-size: 18px;
+    border: none;
+    text-decoration: none;
+    text-align: center;
+    transition-duration: 0.2s;
+    border-radius: 10px;
+    color: white;
+    padding: 17px;
+    background-color: #3B894C;
+    stroke: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.promBtn{
+    font-size: 18px;
+    border: none;
+    text-decoration: none;
+    text-align: center;
+    transition-duration: 0.2s;
+    border-radius: 10px;
+    color: white;
+    padding: 17px;
+    background-color: #175f49;
+    stroke: none;
+    cursor: pointer;
+    font-weight: bold;
+    margin-left: 63px;
+} 
+.promBtn:hover{
+    background-color: #d3451a;
+}
+
+.btn:hover {
+    background-color: #2b793c;
+
+}
+
+table {
+    color: white;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    font-family: 'Noto Sans', sans-serif;
+
+}
+
+#calculations:nth-child(even) {
+    background-color: #4e5a52;
+}
+
+
+#calculations th {
+    background-color: #2b793c;
+    padding: 12px;
+    border: 2px #000000;
+}
+
+#calculations td {
+    background-color: #4a8657;
+    padding: 10px;
+    width: 170px;
+    height: 20px;
+}
+
+#calculations td:hover {
+    background-color: #2b793c;
+}
+
+#calculations td::selection {
+    background-color: red;
+}
+
+.promo-area {
+    color: whitesmoke;
+    font-family: 'Noto Sans', sans-serif;
+    margin: 20px;
+    margin-left: 60px;
+    padding: 5px;
+}
+
+.promo-main{
+font-size: x-large;
+text-decoration: underline;
+}
+
+.promo-second{
+    font-size: large;
+    list-style-type: circle;
+    list-style: circle;
+}
+
+.ol{
+    list-style: circle;
+}
