@@ -58,7 +58,7 @@ function addPromo(){
     var hfc18 = (trxValue * 20) / 100;
 
     var Tot3 = (trxValue * 104) / 100;
-    var Tot6 = (trxValue * 107) / 100;
+    var Tot6 = (trxValue * 100) / 100;
     var Tot12 = (trxValue * 113.5) / 100;
     var Tot18 = (trxValue * 120) / 100;
 
